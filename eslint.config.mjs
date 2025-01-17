@@ -57,7 +57,7 @@ const eslintConfig = [
       //     case: "kebabCase",
       //   },
       // ],
-      "func-style": ["error", "declaration", { allowArrowFunctions: false }],
+      // "func-style": ["error", "declaration", { allowArrowFunctions: false }],
       "prefer-arrow-callback": ["error", { allowNamedFunctions: false }],
       "import/no-default-export": "error",
     },
@@ -66,6 +66,7 @@ const eslintConfig = [
     files: [
       "**/page.tsx",
       "**/layout.tsx",
+      "**/not-found.tsx",
       "next.config.ts",
       "postcss.config.mjs",
       "tailwind.config.ts",
