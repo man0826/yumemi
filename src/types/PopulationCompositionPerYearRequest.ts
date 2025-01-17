@@ -1,3 +1,3 @@
 export type PopulationCompositionPerYearRequest = {
-  prefCode: number;
+  prefCode: string;
 };

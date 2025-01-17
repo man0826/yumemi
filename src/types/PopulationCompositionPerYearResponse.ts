@@ -13,6 +13,6 @@ type PopulationCompositionPerYear = {
 
 type PopulationCompositionPerYearItem = {
   year: number;
-  vavlue: number;
+  value: number;
   rate?: number;
 };
